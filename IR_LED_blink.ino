@@ -1,7 +1,7 @@
 const int totalLEDs = 32;
 int ledPins[totalLEDs];
-int sensor1Pin = 2;
-int sensor2Pin = 3; 
+int sensor1Pin = 14;
+int sensor2Pin = 15; 
 
 void setup() {
   for (int pin = 0; pin < totalLEDs; pin++) {
