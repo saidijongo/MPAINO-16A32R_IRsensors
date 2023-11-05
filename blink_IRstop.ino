@@ -1,7 +1,7 @@
 const int totalLEDs = 32;
 int ledPins[totalLEDs];
-int sensor1Pin = 14; 
-int sensor2Pin = 15; 
+int sensor1Pin = 10; 
+int sensor2Pin = 11; 
 bool sensor1Interrupted = false;
 bool sensor2Interrupted = false;
 
